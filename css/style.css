@@ -524,7 +524,7 @@ h6 {
     clear: both;
     float: left;
     position: relative;
-    margin-bottom: 190px
+    margin-bottom: 80px
 }
 
 .dizme_tm_hero .background {
@@ -1050,8 +1050,8 @@ h6 {
     height: auto;
     clear: both;
     float: left;
-    padding-top: 185px;
-    margin-bottom: 165px;
+    padding: 80px 0px;
+    /* margin-bottom: 165px; */
     position: relative
 }
 
@@ -1692,13 +1692,13 @@ h6 {
     z-index: 5
 }
 
-.dizme_tm_services {
+.dizme_tm_services, .dizme_tm_skills {
     width: 100%;
     height: auto;
     clear: both;
     float: left;
-    padding-top: 178px;
-    margin-bottom: 160px;
+    padding: 80px 0px;
+    /* margin-bottom: 160px; */
     position: relative
 }
 
@@ -1917,8 +1917,9 @@ h6 {
     height: auto;
     clear: both;
     float: left;
-    margin-bottom: 187px;
-    position: relative
+    /* margin-bottom: 187px; */
+    position: relative;
+    padding: 80px 0px;
 }
 
 .dizme_tm_testimonials .list_wrapper {
@@ -2592,21 +2593,25 @@ h6 {
     height: auto;
     clear: both;
     float: left;
-    padding-top: 190px;
-    margin-bottom: 200px;
+    padding: 80px 0px; 
+   /*  margin-bottom: 200px; */
     position: relative
 }
-
+ul.contactMeInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .dizme_tm_contact .contact_inner {
     width: 100%;
     display: flex;
     margin-top: 80px;
-    margin-bottom: 182px;
+    margin-bottom: 80px;
     position: relative
 }
 
 .dizme_tm_contact .left {
-    width: 50%
+    width: 100%
 }
 
 .dizme_tm_contact .left ul {
@@ -2628,8 +2633,8 @@ h6 {
 }
 
 .dizme_tm_contact .left .icon {
-    width: 88px;
-    height: 88px;
+    width: 65px;
+    height: 65px;
     border-radius: 100%;
     position: relative
 }
@@ -2647,7 +2652,7 @@ h6 {
 }
 
 .dizme_tm_contact .left .short h3 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 5px
 }
 
@@ -2791,7 +2796,7 @@ input[type=number] {
     clear: both;
     float: left;
     background-color: #f2f5fb;
-    padding: 57px 0 61px
+    padding: 25px 0px
 }
 
 .dizme_tm_copyright .inner {
