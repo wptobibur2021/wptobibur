@@ -518,6 +518,28 @@ h6 {
     background-color: #ece8fd !important
 }
 
+/* Custom CSS */
+
+.skillsProjectContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul.skillItems {
+    margin-top: 20px;
+    padding: 0;
+}
+
+li.skillItem {
+    list-style: none;
+}
+
+li.skillItem a{
+    color: #b9b5c9;
+    text-decoration: none;
+}
+
+
 .dizme_tm_hero {
     width: 100%;
     height: 100vh;
