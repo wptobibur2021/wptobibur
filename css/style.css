@@ -347,7 +347,12 @@ h6 {
     font-family: jost, sans-serif;
     font-weight: 500
 }
-
+.logo h5 span{
+    color: #f75023;
+}
+.logo a{
+    text-decoration: none;
+}
 .dizme_tm_mobile_menu .download_cv {
     padding-top: 20px
 }
@@ -3793,6 +3798,10 @@ input[type=number] {
         max-width: 220px;
         max-height: 220px
     }
+    ul.contactMeInfo {
+        align-items: start;
+        flex-direction: column;
+    }
 
     .dizme_tm_hero .job {
         margin-bottom: 15px
@@ -3927,7 +3936,7 @@ input[type=number] {
     }
 
     .dizme_tm_hero {
-        margin-bottom: 135px
+        padding: 50px 0px;
     }
 
     .dizme_tm_about {
@@ -3935,8 +3944,7 @@ input[type=number] {
     }
 
     .dizme_tm_portfolio {
-        padding-top: 113px;
-        margin-bottom: 88px
+        padding: 50px 0px;
     }
 
     .dizme_tm_portfolio .portfolio_filter {
@@ -3945,8 +3953,7 @@ input[type=number] {
     }
 
     .dizme_tm_services {
-        padding-top: 120px;
-        margin-bottom: 98px
+        padding: 50px 0px;
     }
 
     .dizme_tm_testimonials .list_wrapper {
@@ -3971,15 +3978,13 @@ input[type=number] {
     }
 
     .dizme_tm_contact {
-        padding-top: 123px
+        padding: 50px 0px;
     }
-
+    .dizme_tm_skills{
+        padding: 50px 0px;
+    }
     .dizme_tm_contact .contact_inner {
         margin-top: 67px;
-        margin-bottom: 120px
-    }
-
-    .dizme_tm_contact {
         margin-bottom: 120px
     }
 }
