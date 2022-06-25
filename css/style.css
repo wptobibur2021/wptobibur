@@ -1458,8 +1458,13 @@ li.skillItem a{
 }
 
 .dizme_tm_modalbox .main_details .detailbox {
-    width: 30%;
+    width: 100%;
     padding-left: 40px
+}
+
+.projectInfo{
+    display: flex;
+    justify-content: space-between;
 }
 
 .dizme_tm_modalbox .main_details .detailbox>ul {
